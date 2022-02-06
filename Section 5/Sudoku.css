@@ -1,0 +1,16 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: black;
+    width: 400px;
+    padding: 5px;
+}
+
+
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 400px;
+}
+

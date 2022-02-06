@@ -1,0 +1,27 @@
+.cell {
+    background-color: whitesmoke;
+    border: 1px gray solid;
+    text-align: center;
+    font-size: 28;
+}
+
+.clicked-cell {
+    border-color: blue;
+    border-width: 2px;
+}
+
+.illegal-cell {
+    background-color: 	#ff3030;
+}
+
+.cell-fixed {
+    color: black;
+    pointer-events: none;
+}
+
+.cell-table {
+    display: none;
+    font-size: 18px;
+    color: #4FC3F7;
+    pointer-events: none;
+}
