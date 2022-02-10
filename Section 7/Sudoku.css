@@ -1,0 +1,35 @@
+.start-screen {
+    margin: 0 auto;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px black;
+}
+
+.start-screen h1, h2 {
+    color: rgb(40, 2, 100)
+}
+
+#cmdStart {
+    padding: 5px;
+    margin: 5px;
+    background-color: papayawhip;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: black;
+    width: 400px;
+    padding: 5px;
+    margin: 0 auto
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 400px;
+    margin: 0 auto
+}
+
+
+

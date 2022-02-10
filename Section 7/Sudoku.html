@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Sudoku</title>
+        <link rel = "stylesheet" href = "./css/Sudoku.css" />
+        <link rel = "stylesheet" href = "./css/Number.css" />
+        <link rel = "stylesheet" href = "./css/Cell.css" />
+
+        <script src = "./js/Sudoku.js"></script>
+        <script src = "./js/Number.js"></script>
+        <script src = "./js/Cell.js"></script>
+        <script src = "./js/GameManager.js"></script>
+    </head>
+    <body>
+        <div class = "start-screen">
+            <h1>Welcome to Sudoku Online</h1>
+            <h2>Please choose the difficulty level:</h2>
+            <div class = "difficulty-options">
+                <input type = "radio" id = "rdoEasy" checked name = "options"/>
+                <label for = "rdoEasy">Easy</label>
+                <input type = "radio" id = "rdoMedium" name = "options"/>
+                <label for = "rdoMedium">Medium</label>
+                <input type = "radio" id = "rdoHard"  name = "options"/>
+                <label for = "rdoHard">Hard</label>
+                <input type = "radio" id = "rdoEvil"  name = "options"/>
+                <label for = "rdoEvil">Evil</label>
+            </div>
+            <p></p>
+            <button id = "cmdStart" onclick = "clickStart()">Start Game</button>
+        </div>
+
+
+        <div class = "board"></div>
+        <p></p>
+        <div class  = "numbers"></div>
+    </body>
+</html>
